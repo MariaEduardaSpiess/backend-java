@@ -7,7 +7,6 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonSerializer;
 import com.fasterxml.jackson.databind.SerializerProvider;
 
-import realize.domain.impl.EntidadeImpl;
 import realize.domain.impl.VoluntarioImpl;
 
 public class VoluntarioSerializer extends JsonSerializer<VoluntarioImpl> {

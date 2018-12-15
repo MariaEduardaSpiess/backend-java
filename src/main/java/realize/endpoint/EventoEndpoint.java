@@ -22,16 +22,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.fasterxml.jackson.core.JsonEncoding;
-
 import realize.domain.impl.EventoImpl;
 import realize.domain.impl.ParticipanteEventoImpl;
 import realize.domain.impl.TimeVoluntarioImpl;
-import realize.domain.impl.UsuarioImpl;
 import realize.domain.impl.VoluntarioImpl;
 import realize.endpoint.core.AbstractCRUDEndpoint;
 import realize.endpoint.core.FilteredRepository;
-import realize.endpoint.json.ImagemJson;
 import realize.endpoint.json.ParticipanteEventoParam;
 import realize.exeptions.ErroNoProcessoException;
 import realize.exeptions.InvalidAuthException;

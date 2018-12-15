@@ -7,7 +7,6 @@ import org.springframework.stereotype.Repository;
 
 import realize.domain.Pais;
 import realize.domain.impl.EstadoImpl;
-import realize.domain.impl.PaisImpl;
 import realize.endpoint.core.FilteredRepository;
 
 @Repository
